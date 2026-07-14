@@ -1,2 +1,7 @@
 name: cdktf-uv-project
-runtime: python
+description: GCS website buckets managed by Pulumi (migrated from CDKTF)
+runtime:
+  name: python
+  options:
+    toolchain: uv
+    virtualenv: .venv
