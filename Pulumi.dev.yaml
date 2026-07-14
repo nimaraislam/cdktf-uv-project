@@ -1,0 +1,4 @@
+environment:
+  - cdktf-uv-project/dev
+config:
+  gcp:project: terraform-lab-nimara
