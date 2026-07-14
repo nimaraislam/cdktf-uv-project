@@ -1,11 +1,10 @@
 [project]
 name = "cdktf-uv-project"
 version = "0.1.0"
-description = "Add your description here"
+description = "GCS website buckets managed by Pulumi"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "cdktf==0.21.0",
-    "cdktf-cdktf-provider-google==16.12.1",
-    "constructs==10.6.0",
+    "pulumi>=3.0.0,<4.0.0",
+    "pulumi-gcp>=9.0.0,<10.0.0",
 ]

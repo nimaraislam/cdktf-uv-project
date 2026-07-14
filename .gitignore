@@ -1,5 +1,6 @@
 *.pyc
 venv/
+.venv/
 
 # Generated CDK for Terraform output and local Google service-account keys.
 cdktf.out/
