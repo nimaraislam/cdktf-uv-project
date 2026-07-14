@@ -1,0 +1,10 @@
+*.pyc
+venv/
+
+# Generated CDK for Terraform output and local Google service-account keys.
+cdktf.out/
+terraform-lab-*.json
+
+# Local Terraform state can include resource attributes and sensitive values.
+*.tfstate
+*.tfstate.*

@@ -1,0 +1,11 @@
+[project]
+name = "cdktf-uv-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "cdktf==0.21.0",
+    "cdktf-cdktf-provider-google==16.12.1",
+    "constructs==10.6.0",
+]

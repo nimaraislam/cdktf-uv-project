@@ -1,0 +1,9 @@
+{
+  "language": "python",
+  "app": "uv run main.py",
+  "projectId": "cdktf-uv-project",
+  "sendCrashReports": false,
+  "terraformProviders": [],
+  "terraformModules": [],
+  "codeMakerOutput": "imports"
+}
