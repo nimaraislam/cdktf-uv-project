@@ -1,10 +1,4 @@
-"""Pulumi program: three public GCS website buckets.
-
-During the initial migration from CDKTF, ``importing=True`` instructs
-``WebsiteBucket`` to import the already-deployed GCS bucket and object ACL
-into Pulumi state.  After a successful ``pulumi up``, remove the
-``importing=True`` flag so subsequent runs simply track the resources normally.
-"""
+"""Pulumi program: three public GCS website buckets."""
 
 from modules.website_bucket import WebsiteBucket
 
@@ -19,5 +13,4 @@ for i in range(1, BUCKET_COUNT + 1):
         f"website-{i}",
         bucket_name=f"cdktf-website-{i:03d}-nimara",
         source_file=SOURCE_FILE,
-        importing=True,  # Remove after the initial migration 'pulumi up' succeeds.
     )
